@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/title11"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Title"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:background="@color/Light_Blue"
+        />
+    <EditText
+        android:id="@+id/description11"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Description"
+        android:textColor="#000000"
+        android:background="@color/Light_Blue"
+        android:visibility="visible"
+        android:layout_below="@+id/title11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description11"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorAccent"
+        android:text="cancel"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/update1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="update"
+        android:onClick="SaveInfo"
+        android:textColor="#000000"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

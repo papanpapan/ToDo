@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textdate11"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="15/07/2017"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:background="@color/Light_Blue"
+        />
+
+    <TextView
+        android:id="@+id/texttitle11"
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        android:text="Pay Bill"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/textdate11"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:id="@+id/textdescription11"
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        android:text=" Bill"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/texttitle11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/textdate22"
+        android:layout_width="190dp"
+        android:layout_height="20dp"
+        android:text="15/07/2017"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/textdescription11"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="22dp"
+        android:src="@drawable/thumbup"
+        android:layout_alignTop="@+id/textdescription11"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
